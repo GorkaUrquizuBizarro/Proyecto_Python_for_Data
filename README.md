@@ -31,6 +31,8 @@ Tendrás que realizar el proyecto usando estás herramientas:
 - EDA preliminar de los conjuntos de datos con los archivos 'bank_additional.ipynb' y 'customer_detail.ipynb'
 - Transformación y limpieza de los conjuntos de datos antes del análisis de gestión de nulos.
 
+**Sesión 3:**
+- Gestión de nulos.
 
 ## 6. Datos
 Los datos con los que vas a trabajar son los que te aportamos en este link.
