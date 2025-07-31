@@ -32,7 +32,7 @@ Tendrás que realizar el proyecto usando estás herramientas:
 - Transformación y limpieza de los conjuntos de datos antes del análisis de gestión de nulos.
 
 **Sesión 3:**
-- Gestión de nulos.
+- Gestión de nulos para los archivos de datos bank_additional y customer-detail.
 
 ## 6. Datos
 Los datos con los que vas a trabajar son los que te aportamos en este link.
