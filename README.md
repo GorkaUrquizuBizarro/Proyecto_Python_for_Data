@@ -34,6 +34,9 @@ Tendrás que realizar el proyecto usando estás herramientas:
 **Sesión 3:**
 - Gestión de nulos para los archivos de datos bank_additional y customer-detail.
 
+**Sesión 4:**
+- Análisis descriptivo de los datos.
+
 ## 6. Datos
 Los datos con los que vas a trabajar son los que te aportamos en este link.
 Estos conjuntos de datos están relacionados con campañas de marketing directo de una institución bancaria portuguesa. Las campañas de marketing se basaron en llamadas telefónicas. A menudo, se requería más de un contacto con el mismo cliente para determinar si el producto (depósito a plazo bancario) sería suscrito o no. Las columnas que tenemos en el primer dataset ('bank-additional.csv') son:
