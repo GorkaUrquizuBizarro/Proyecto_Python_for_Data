@@ -37,6 +37,11 @@ Tendrás que realizar el proyecto usando estás herramientas:
 **Sesión 4:**
 - Análisis descriptivo de los datos.
 
+**Sesión 5:**
+
+**Sesión 6:**
+- Conclusiones del estudio.
+
 ## 6. Datos
 Los datos con los que vas a trabajar son los que te aportamos en este link.
 Estos conjuntos de datos están relacionados con campañas de marketing directo de una institución bancaria portuguesa. Las campañas de marketing se basaron en llamadas telefónicas. A menudo, se requería más de un contacto con el mismo cliente para determinar si el producto (depósito a plazo bancario) sería suscrito o no. Las columnas que tenemos en el primer dataset ('bank-additional.csv') son:
@@ -80,4 +85,53 @@ La entrega del proyecto se hará a través de GitHub. Para entregarlo tendrás q
 - **Una carpeta de datos** donde guardes los archivos en bruto, asociados a este proyecto, y los datos guardados después de las transformaciones.
 - **Una carpeta con los notebooks o archivos py** donde hayas realizado todos los pasos pedidos en el proyecto
 
+## 8. Conclusiones
 
+**Archivo bank_aditional:**
+
+Las conclusiones generales del análisis se detallan a continuación. Para entender mejor el resumen de los datos vamos a 
+separarlos en dos campos:
+- Tipo de cliente que acaba realizando la suscripción.
+
+- Que variables son las que afectan a la suscripción.
+
+    - **Tipo de Cliente**:
+        - El mayor número de clientes que acaban suscritos son aquellos que se encuentran entre los rangos de 18-25 años y los mayores de 66.
+        - Por ocupación estos clientes son "Retired" y "Student".
+        - En su gran mayoria "Singels".
+        - Con un nivel de estudios "Illiterate"
+        - Han sido contactados por "Celular"
+        - No disponen de otros prestamos.
+
+    - **Variables clave**:
+        - Las llamadas más largas se asocian con suscripción.
+        - Clientes contactados recientemente son más propensos a suscribirse.
+        - Más contactos previos = más probabilidad de suscripción.
+        - En peores contextos laborales (emp.var.rate negativa) hubo más suscripciones.
+        - Tasas más bajas (euribor negativo), más conversiones (época de crisis)
+
+**Archivo customer_detail:**
+
+Conclusiones del Análisis Descriptivo
+
+- **Income Clientes:**
+    - La mayoría de los clientes se concentran en rangos "Medio" a "Alto". 
+    - Los clientes del grupo de ingreso muy alto presentan una mayor actividad web promedio, lo que sugiere un mayor involucramiento con la plataforma. Sin embargo, también se detectan clientes de ingresos bajos con comportamientos digitales intensivos, lo que representa un nicho potencial para campañas personalizadas.
+
+- **Visitas Web:**
+    - No existe una relación lineal entre el nivel de ingreso y las visitas web, 
+    - No se observa un patrón claro; clientes nuevos y antiguos tienen comportamientos digitales similares.
+    - No se encuentra una correlación significativa con ninguna variable.
+    - Los clientes visitan el sitio web en promedio 16.6 veces al mes, con un rango de 1 a 32 visitas.
+    - La desviación estándar de 9.24 indica diferencias significativas en el comportamiento digital de los usuarios; algunos interactúan mucho más con la web que otros
+
+- **Número de clientes:**
+    - El numero de clientes adquiridos a lo largo del tiempo a ido en clara disminución aunque hemos observado un repunte en el último año.  
+    - En promedio, los clientes llevan alrededor de 4,472 días con la empresa (aproximadamente 12 años), lo que sugiere una base consolidada y posiblemente leal.
+    - El rango va desde 3,874 hasta 4,969 días, lo que representa una antigüedad de entre 10.6 y 13.6 años, mostrando una base de datos bastante homogénea en términos de tiempo de permanencia. 
+    
+- **Tipo de familia:**
+    - La gran mayoria de nuestros clientes tienen hijos casi un 90%
+    - En su gran mayoria tienen dos hijos por familia.
+    - En promedio, los hogares tienen aproximadamente 1 hijo y 1 adolescente, con valores que varían entre 0 y 2 para ambas variables.
+    - La baja desviación estándar (≈0.82) sugiere que la mayoría de los hogares tienen una estructura familiar similar, con pocas variaciones.
